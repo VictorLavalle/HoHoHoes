@@ -1,4 +1,4 @@
-# HoHoHoes
+# HoHoHoes 🎅
 Welcome to the repository for a Party Webpage! This repository contains the source code for a simple webpage that announces and provides details for an upcoming party.
 
 ## Getting Started
