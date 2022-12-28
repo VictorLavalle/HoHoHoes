@@ -35,7 +35,7 @@
 
     let weeks = Math.floor(timeleft / (1000 * 60 * 60 * 24 * 7));
     let days = Math.floor(timeleft / (1000 * 60 * 60 * 24));
-    let hours = Math.floor(7+(timeleft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    let hours = Math.floor((timeleft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     let minutes = Math.floor((timeleft % (1000 * 60 * 60)) / (1000 * 60));
     let seconds = Math.floor((timeleft % (1000 * 60)) / 1000);
 
@@ -56,4 +56,4 @@
   countDownDate();
   setInterval(countDownDate, 1000);
 
-})()
+})();
